@@ -325,8 +325,26 @@ h3{
     font-size: 20px;
 }
 
+/*-----MULTIPLAYER------*/
 
+#multi-player{
+    height: 100vh;
+    background-image: url(../img//bg-multiplayer.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
 
+.info{
+    line-height: 1.2;
+    padding: 40px;
+    width: 600px;
+    margin-right: 50px;
+}
+
+.info p {
+    font-size:  20px;
+}
 
 /*
 ****MEDIA******
