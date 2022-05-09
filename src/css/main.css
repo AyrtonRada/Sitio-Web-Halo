@@ -340,6 +340,7 @@ h3{
     padding: 40px;
     width: 600px;
     margin-right: 50px;
+    transition:  background-color 0.3s ease;
 }
 
 .info p {
@@ -347,7 +348,17 @@ h3{
 }
 
 /*
-****MEDIA******
+****MEDIA (1519)******
+*/
+@media screen and (max-width: 1519px){
+    .info{
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+    }
+}
+
+/*
+****MEDIA (1191)******
 */
 
 @media screen and (max-width: 1191px){
@@ -376,9 +387,21 @@ h3{
     #slider #current iframe {
         height:  500px;
     }
+
+    #multi-player {
+        background-position: center left;
+    }
+
+    .info {
+        width: 600px;
+        margin: 0 auto;
+    }
 }
 
 
+/*
+****MEDIA (701)******
+*/
 @media screen and (max-width: 701px){
     nav{
         width: 100%;
@@ -408,5 +431,14 @@ h3{
 
     #slider #videos-container {
         display: none !important;
+    }
+
+    #multi-player {
+        background-position: -400px 0px;
+    }
+
+    .info {
+        width: 90%;
+        margin: 0 auto;
     }
 }
