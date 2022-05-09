@@ -55,16 +55,27 @@ function renderCurrentVideo(id) {
 }
 
 function renderVideos(){
-    const html = videos.map((video) => {
+    const html = videos.map((video, index) => {
         return `
         <div class="item">
-            <a href="#">
+            <a href="#" data-id="${index}">
                 <img src="http://i3.ytimg.com/vi/${video.id}/hqdefault.jpg" />
             </a>
         </div>`
     })
 
     videosContainer.innerHTML = html.join("")
+
+   
+
+    document.querySelectorAll(".item a").forEach(element => {
+        element.addEventListener("click", (e)=> {
+            e.preventDefault()
+            const id = +element.getAttribute('data-id') // con el signo + lo que hace es transformalo en numero
+            current = id
+            renderCurrentVideo(videos[current].id)
+        })
+    });
 }
 
 renderVideos()
