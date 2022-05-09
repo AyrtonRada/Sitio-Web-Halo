@@ -344,10 +344,19 @@ h3{
     header{
         height: 70vh;
     }
+    
     #banner {
         position: initial !important;
         z-index: 100;
         width: 100%;
+    }
+    
+    #slider #current{
+        width: 80% !important;
+    }
+
+    #slider #current iframe {
+        height:  500px;
     }
 }
 
@@ -369,5 +378,17 @@ h3{
     header{
         background-position: center 40px;
         height: 30vh;
+    }
+
+    #slider #current{
+        width: 90%;
+    }
+
+    #slider #current iframe {
+        height:  300px;
+    }
+
+    #slider #videos-container {
+        display: none !important;
     }
 }
