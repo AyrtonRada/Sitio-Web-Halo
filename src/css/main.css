@@ -267,8 +267,8 @@ h3{
     justify-content: center;
 }
 
-#videos #slider #controls .prev,
-#videos #slider #controls .next {
+#videos #slider #controls #prev,
+#videos #slider #controls #next {
     border: none;
     height: 50px;
     width: 80px;
@@ -281,8 +281,8 @@ h3{
     transition: all 0.3s ease;
 }
 
-#videos #slider #controls .prev:hover,
-#videos #slider #controls .next:hover{
+#videos #slider #controls #prev:hover,
+#videos #slider #controls #next:hover{
     background-color: rgb(37, 337, 37);
 } 
 
