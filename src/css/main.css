@@ -436,6 +436,19 @@ h3{
         width: 600px;
         margin: 0 auto;
     }
+
+    #get-the-game .item-store{
+        width: 100%;
+        padding: 20px;
+    }
+
+    #get-the-game .item-store .left img {
+        width: 300px;
+    }
+
+    #get-the-game .item-store .right {
+        width: 100%;
+    }
 }
 
 
@@ -480,5 +493,21 @@ h3{
     .info {
         width: 90%;
         margin: 0 auto;
+    }
+
+    #get-the-game .item-store{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #get-the-game .item-store .left img {
+        width: 300px;
+    }
+
+    #get-the-game .item-store .right {
+        text-align: center;
+        width: 100%;
     }
 }
