@@ -63,7 +63,7 @@ function renderVideos(){
             </a>
         </div>`
     })
-
+    
     videosContainer.innerHTML = html.join("")
 
    

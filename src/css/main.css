@@ -347,6 +347,46 @@ h3{
     font-size:  20px;
 }
 
+/*-----GET THE GAME - STORE------*/
+
+#get-the-game {
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+#get-the-game h2 {
+    color: white;
+}
+
+#get-the-game h3 {
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+}
+
+#get-the-game .item-store{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#get-the-game .item-store .left{
+    padding: 0 20px;
+    width: 100%;
+}
+
+#get-the-game .item-store .left img{
+    width: 500px;
+}
+
+#get-the-game .item-store .right {
+    text-align: left;
+    width: 80%;
+}
+
+
 /*
 ****MEDIA (1519)******
 */
