@@ -386,6 +386,12 @@ h3{
     width: 80%;
 }
 
+footer{
+    height: 800px;
+    background-image: url(../img/master-chief-darkmode.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*
 ****MEDIA (1519)******
@@ -449,6 +455,10 @@ h3{
     #get-the-game .item-store .right {
         width: 100%;
     }
+
+    footer{
+        background-position: center center;
+    }
 }
 
 
@@ -509,5 +519,10 @@ h3{
     #get-the-game .item-store .right {
         text-align: center;
         width: 100%;
+    }
+
+    footer {
+        height: 400px;
+        background-position: center center;
     }
 }
